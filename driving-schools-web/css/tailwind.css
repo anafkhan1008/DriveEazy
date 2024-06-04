@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-trueGray-900;
+  }
+}
+
+/* styles/globals.css */
+/* modalStyles.css */
+
+/* modalStyles.css */
+
+/* Existing modal styles */
+.modal {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-content h2 {
+  color: #333; /* Adjust according to your theme */
+}
+
+.modal-content p {
+  color: #666; /* Adjust according to your theme */
+}
+.city-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+.city-list li {
+  margin: 10px;
+  color: #333; /* Adjust according to your theme */
+}
+
+/* Styles for the search bar */
+.modal-content input[type="text"] {
+  background-color: white;
+  color: #333;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 2px solid #ccc; /* Adjust according to your theme */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.modal-content input[type="text"]:focus {
+  border-color: #3949AB; /* Adjust according to your theme */
+  outline: none;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+.popular {
+  color: red;
+}
+
+button:hover {
+  background-color: #0056b3; /* Adjust according to your theme */
+}
+
+#all {
+  color: rgb(184, 0, 0);
+}
+
+
+.result-item {
+  width: 100%;
+  box-shadow: rgba(97, 116, 219, 0.5) 0px 1px 3px 0px, rgba(47, 131, 216, 0.15) 0px 0px 0px 1px;
+}
+
+.result-item > a {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+}
