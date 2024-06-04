@@ -57,7 +57,7 @@ export default function SignUp({ csrfToken }) {
               required 
               value={name}
               onChange={(e) => setname(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md" 
+              className="w-full p-2 border bg-slate-50 border-gray-300 rounded-md" 
             />
           </div>
           <div>
@@ -68,7 +68,7 @@ export default function SignUp({ csrfToken }) {
               required 
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full p-2 border border-gray-300 rounded-md" 
+              className="w-full p-2 bg-slate-50 border border-gray-300 rounded-md" 
             />
           </div>
           <div>
